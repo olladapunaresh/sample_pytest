@@ -19,8 +19,8 @@ def main(params):
     extract_type=params['extract_type']
 
     response = {}
-    return_string=""
-    
+    return_string="test_string"
+    print(return_string)
     if extract_type==0:
 
         inser_sql = "INSERT INTO mvh18309.ISSUES (NAME, EMPLOYEE_ID, ISSUE_TYPE) VALUES('{0}', '{1}', '{2}')".format(name,employee_id,issue_type)
